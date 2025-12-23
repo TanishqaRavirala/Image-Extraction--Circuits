@@ -75,6 +75,9 @@ ImageExtraction-Circuits/
 
 ---
 
+## 📷Sample input image
+<img width="1427" height="2203" alt="Configuration 56790EZ_SR_T" src="https://github.com/user-attachments/assets/87274a6f-0639-468d-a54a-0e4cc788a14d" />
+
 ## 🛠️ Technologies Used
 
 - **Python**
@@ -118,6 +121,8 @@ python src/visualize_d3graph.py
 - `*_components.json` → Nodes & edges representation
 - `*_matrix.csv` → Adjacency / comparison matrix
 - `*_components.html` → Interactive circuit graph
+
+<img width="931" height="688" alt="image" src="https://github.com/user-attachments/assets/ffc853a2-a12d-42d4-9ba4-67094121d118" />
 
 ## 📌 Use Cases
 
