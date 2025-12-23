@@ -7,7 +7,7 @@ The final output is an **interactive D3.js visualization** that helps understand
 
 The project is designed around **real-world telecom circuit diagrams** (5G, LTE, FDD, TDD, SRAN systems), not synthetic examples.
 
----
+
 
 ## 🧠 Problem Statement
 
@@ -18,7 +18,7 @@ This project addresses that by:
 - Structuring components and connections as graph data
 - Enabling visualization and analysis using graph theory concepts
 
----
+
 
 ## ⚙️ Processing Pipeline
 
@@ -34,7 +34,7 @@ Adjacency / Comparison Matrix (CSV)
 Interactive D3 Graph Visualization (HTML)
 ```
 
----
+
 
 ## 📂 Project Structure
 
@@ -61,7 +61,7 @@ ImageExtraction-Circuits/
 └── README.md
 ```
 
----
+
 
 ## 🧩 Key Features
 
@@ -73,7 +73,7 @@ ImageExtraction-Circuits/
 - 🌐 Produces interactive D3.js HTML visualizations
 - 📡 Tailored for real telecom and network infrastructure diagrams
 
----
+
 
 ## 📷Sample input image
 <img width="1427" height="2203" alt="Configuration 56790EZ_SR_T" src="https://github.com/user-attachments/assets/87274a6f-0639-468d-a54a-0e4cc788a14d" />
@@ -86,7 +86,7 @@ ImageExtraction-Circuits/
 - **JSON / CSV** – structured storage
 - **d3graph & D3.js** – graph visualization
 
----
+
 
 ## 🚀 How to Run
 
@@ -114,7 +114,7 @@ python src/comparison_matrix.py
 python src/visualize_d3graph.py
 ```
 
----
+
 
 ## 📊 Output Artifacts
 
@@ -132,14 +132,14 @@ python src/visualize_d3graph.py
 - Network visualization & education
 - Preprocessing for ML-based diagram understanding
 
----
+
 
 ## 👩‍💻 Author
 
 **Tanishka Ravirala**
 Work at SHI Solutions India Pvt. Ltd.
 
----
+
 
 ## 📄 License
 
