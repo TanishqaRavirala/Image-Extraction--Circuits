@@ -132,8 +132,7 @@ python src/visualize_d3graph.py
 ## 👩‍💻 Author
 
 **Tanishka Ravirala**
-B.Tech in Computer Science
-National Institute of Technology, Warangal
+Work at SHI Solutions India Pvt. Ltd.
 
 ---
 
