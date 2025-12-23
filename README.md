@@ -1,8 +1,3 @@
-Here’s a **clean, professional `README.md`** you can directly copy-paste into your GitHub repository.
-It explains **what the project does, how it works, and why it matters**, without overcomplicating.
-
----
-
 # 📡 Circuit Diagram Extraction & Graph Visualization
 
 ## 🔍 Overview
@@ -88,6 +83,8 @@ ImageExtraction-Circuits/
 - **JSON / CSV** – structured storage
 - **d3graph & D3.js** – graph visualization
 
+---
+
 ## 🚀 How to Run
 
 ### 1️⃣ Install dependencies
@@ -114,6 +111,8 @@ python src/comparison_matrix.py
 python src/visualize_d3graph.py
 ```
 
+---
+
 ## 📊 Output Artifacts
 
 - `*_components.json` → Nodes & edges representation
@@ -127,6 +126,8 @@ python src/visualize_d3graph.py
 - Graph-based system understanding
 - Network visualization & education
 - Preprocessing for ML-based diagram understanding
+
+---
 
 ## 👩‍💻 Author
 
