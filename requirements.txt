@@ -1,0 +1,4 @@
+PyMuPDF>=1.22.0
+pandas>=1.5.0
+numpy>=1.23.0
+d3graph>=2.4.10

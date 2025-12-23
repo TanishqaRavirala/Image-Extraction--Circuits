@@ -1,0 +1,142 @@
+{
+  "nodes": [
+    {
+      "id": "aehc",
+      "label": "AEHC"
+    },
+    {
+      "id": "b41",
+      "label": "B41"
+    },
+    {
+      "id": "passive_antenna",
+      "label": "LB + MB Octo Passive Antenna"
+    },
+    {
+      "id": "l19",
+      "label": "L19"
+    },
+    {
+      "id": "l700",
+      "label": "L700"
+    },
+    {
+      "id": "l21_aws3",
+      "label": "L21+AWS3"
+    },
+    {
+      "id": "l600",
+      "label": "L600"
+    },
+    {
+      "id": "g19",
+      "label": "G19"
+    },
+    {
+      "id": "n600",
+      "label": "N600"
+    },
+    {
+      "id": "n21",
+      "label": "N21"
+    },
+    {
+      "id": "n19",
+      "label": "N19"
+    },
+    {
+      "id": "ahloa",
+      "label": "AHLOA"
+    },
+    {
+      "id": "ahfig",
+      "label": "AHFIG"
+    },
+    {
+      "id": "hybrid1",
+      "label": "6x24 Hybrid"
+    },
+    {
+      "id": "hybrid2",
+      "label": "6x24 Hybrid"
+    },
+    {
+      "id": "5g_airscale",
+      "label": "5G Airscale"
+    },
+    {
+      "id": "fsmf_gsm_pcs",
+      "label": "FSMF GSM PCS"
+    },
+    {
+      "id": "lte_fdd_tdd_airscale1",
+      "label": "LTE FDD/TDD Airscale1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "aehc",
+      "target": "hybrid1"
+    },
+    {
+      "source": "passive_antenna",
+      "target": "ahloa",
+      "source_port": "8"
+    },
+    {
+      "source": "passive_antenna",
+      "target": "ahloa",
+      "source_port": "7"
+    },
+    {
+      "source": "passive_antenna",
+      "target": "ahloa",
+      "source_port": "6"
+    },
+    {
+      "source": "passive_antenna",
+      "target": "ahloa",
+      "source_port": "5"
+    },
+    {
+      "source": "passive_antenna",
+      "target": "ahfig",
+      "source_port": "4"
+    },
+    {
+      "source": "passive_antenna",
+      "target": "ahfig",
+      "source_port": "3"
+    },
+    {
+      "source": "passive_antenna",
+      "target": "ahfig",
+      "source_port": "2"
+    },
+    {
+      "source": "passive_antenna",
+      "target": "ahfig",
+      "source_port": "1"
+    },
+    {
+      "source": "ahloa",
+      "target": "hybrid1"
+    },
+    {
+      "source": "ahfig",
+      "target": "hybrid2"
+    },
+    {
+      "source": "hybrid1",
+      "target": "5g_airscale"
+    },
+    {
+      "source": "hybrid2",
+      "target": "fsmf_gsm_pcs"
+    },
+    {
+      "source": "hybrid2",
+      "target": "lte_fdd_tdd_airscale1"
+    }
+  ]
+}

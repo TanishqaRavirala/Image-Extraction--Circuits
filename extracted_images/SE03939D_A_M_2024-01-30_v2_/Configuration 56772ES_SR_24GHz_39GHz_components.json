@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "AEWB",
+      "label": "AEWB"
+    },
+    {
+      "id": "AWEUD",
+      "label": "AWEUD"
+    },
+    {
+      "id": "AEHC",
+      "label": "AEHC"
+    },
+    {
+      "id": "AAFIA",
+      "label": "AAFIA"
+    },
+    {
+      "id": "AHLOA",
+      "label": "AHLOA"
+    },
+    {
+      "id": "AHFIG",
+      "label": "AHFIG"
+    },
+    {
+      "id": "HCS2.0_Rooftop",
+      "label": "HCS2.0 Rooftop"
+    },
+    {
+      "id": "HCS1.0_1",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1.0_2",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1.0_3",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1.0_4",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1.0_5",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1.0_6",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "5G_Airscale",
+      "label": "5G Airscale"
+    },
+    {
+      "id": "LTE_TDD_Airscale2",
+      "label": "LTE TDD Airscale2"
+    },
+    {
+      "id": "FSMF_GSM_UMTS_PCS",
+      "label": "FSMF GSM/UMTS PCS"
+    },
+    {
+      "id": "LTE_FDD_Airscale1",
+      "label": "LTE FDD Airscale1"
+    },
+    {
+      "id": "Fiber_Jumpers",
+      "label": "Fiber Jumpers"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AEWB",
+      "target": "Fiber_Jumpers"
+    },
+    {
+      "source": "AWEUD",
+      "target": "Fiber_Jumpers"
+    },
+    {
+      "source": "AEHC",
+      "target": "Fiber_Jumpers"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHLOA",
+      "source_port": "8"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHLOA",
+      "source_port": "7"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHLOA",
+      "source_port": "6"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHLOA",
+      "source_port": "5"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHFIG",
+      "source_port": "4"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHFIG",
+      "source_port": "3"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHFIG",
+      "source_port": "2"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHFIG",
+      "source_port": "1"
+    },
+    {
+      "source": "Fiber_Jumpers",
+      "target": "HCS2.0_Rooftop"
+    },
+    {
+      "source": "AHLOA",
+      "target": "HCS1.0_1"
+    },
+    {
+      "source": "AHLOA",
+      "target": "HCS1.0_4"
+    },
+    {
+      "source": "AHFIG",
+      "target": "HCS1.0_2"
+    },
+    {
+      "source": "AHFIG",
+      "target": "HCS1.0_3"
+    },
+    {
+      "source": "AHFIG",
+      "target": "HCS1.0_5"
+    },
+    {
+      "source": "AHFIG",
+      "target": "HCS1.0_6"
+    },
+    {
+      "source": "HCS2.0_Rooftop",
+      "target": "5G_Airscale"
+    },
+    {
+      "source": "HCS2.0_Rooftop",
+      "target": "LTE_TDD_Airscale2"
+    },
+    {
+      "source": "HCS1.0_4",
+      "target": "FSMF_GSM_UMTS_PCS"
+    },
+    {
+      "source": "HCS1.0_6",
+      "target": "LTE_FDD_Airscale1"
+    }
+  ]
+}

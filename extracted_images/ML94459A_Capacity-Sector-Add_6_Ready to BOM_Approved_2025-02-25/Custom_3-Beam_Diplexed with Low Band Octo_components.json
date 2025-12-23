@@ -1,0 +1,242 @@
+{
+  "nodes": [
+    {
+      "id": "3_beam_mimo_antenna",
+      "label": "3 Beam MIMO Antenna"
+    },
+    {
+      "id": "l19_plus_1",
+      "label": "L19+"
+    },
+    {
+      "id": "l19_plus_2",
+      "label": "L19+"
+    },
+    {
+      "id": "l19_plus_3",
+      "label": "L19+"
+    },
+    {
+      "id": "laws_1",
+      "label": "LAWS"
+    },
+    {
+      "id": "laws_2",
+      "label": "LAWS"
+    },
+    {
+      "id": "laws_3",
+      "label": "LAWS"
+    },
+    {
+      "id": "n21_1",
+      "label": "N21"
+    },
+    {
+      "id": "n21_2",
+      "label": "N21"
+    },
+    {
+      "id": "n21_3",
+      "label": "N21"
+    },
+    {
+      "id": "n19_1",
+      "label": "N19"
+    },
+    {
+      "id": "n19_2",
+      "label": "N19"
+    },
+    {
+      "id": "n19_3",
+      "label": "N19"
+    },
+    {
+      "id": "n41_1",
+      "label": "n41"
+    },
+    {
+      "id": "n41_2",
+      "label": "n41"
+    },
+    {
+      "id": "n41_3",
+      "label": "n41"
+    },
+    {
+      "id": "lb_mb_octo_antenna",
+      "label": "LB + MB Octo Passive Antenna"
+    },
+    {
+      "id": "l700",
+      "label": "L700"
+    },
+    {
+      "id": "l600",
+      "label": "L600"
+    },
+    {
+      "id": "n600",
+      "label": "N600"
+    },
+    {
+      "id": "dip_quad_1",
+      "label": "DIP (Quad)"
+    },
+    {
+      "id": "dip_quad_2",
+      "label": "DIP (Quad)"
+    },
+    {
+      "id": "ahfig_1",
+      "label": "AHFIG"
+    },
+    {
+      "id": "azhl",
+      "label": "AZHL"
+    },
+    {
+      "id": "ahfig_2",
+      "label": "AHFIG"
+    },
+    {
+      "id": "ahloa",
+      "label": "AHLOA"
+    },
+    {
+      "id": "hybrid_1",
+      "label": "6x24 Hybrid"
+    },
+    {
+      "id": "hybrid_2",
+      "label": "6x24 Hybrid"
+    },
+    {
+      "id": "lte_fdd_airscale1",
+      "label": "LTE FDD Airscale1"
+    },
+    {
+      "id": "5g_airscale1",
+      "label": "5G Airscale 1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "l19_plus_1",
+      "target": "laws_1"
+    },
+    {
+      "source": "l19_plus_2",
+      "target": "laws_2"
+    },
+    {
+      "source": "l19_plus_3",
+      "target": "laws_3"
+    },
+    {
+      "source": "laws_1",
+      "target": "n21_1"
+    },
+    {
+      "source": "laws_2",
+      "target": "n21_2"
+    },
+    {
+      "source": "laws_3",
+      "target": "n21_3"
+    },
+    {
+      "source": "n21_1",
+      "target": "n19_1"
+    },
+    {
+      "source": "n21_2",
+      "target": "n19_2"
+    },
+    {
+      "source": "n21_3",
+      "target": "n19_3"
+    },
+    {
+      "source": "n19_1",
+      "target": "n41_1"
+    },
+    {
+      "source": "n19_2",
+      "target": "n41_2"
+    },
+    {
+      "source": "n19_3",
+      "target": "n41_3"
+    },
+    {
+      "source": "l700",
+      "target": "l600"
+    },
+    {
+      "source": "l600",
+      "target": "n600"
+    },
+    {
+      "source": "3_beam_mimo_antenna",
+      "target": "dip_quad_1"
+    },
+    {
+      "source": "3_beam_mimo_antenna",
+      "target": "dip_quad_2"
+    },
+    {
+      "source": "lb_mb_octo_antenna",
+      "target": "ahloa"
+    },
+    {
+      "source": "dip_quad_1",
+      "target": "ahfig_1"
+    },
+    {
+      "source": "dip_quad_1",
+      "target": "azhl"
+    },
+    {
+      "source": "dip_quad_2",
+      "target": "azhl"
+    },
+    {
+      "source": "dip_quad_2",
+      "target": "ahfig_2"
+    },
+    {
+      "source": "ahfig_1",
+      "target": "hybrid_1"
+    },
+    {
+      "source": "azhl",
+      "target": "hybrid_1"
+    },
+    {
+      "source": "ahfig_2",
+      "target": "hybrid_1"
+    },
+    {
+      "source": "ahloa",
+      "target": "hybrid_2"
+    },
+    {
+      "source": "hybrid_1",
+      "target": "lte_fdd_airscale1"
+    },
+    {
+      "source": "hybrid_1",
+      "target": "5g_airscale1"
+    },
+    {
+      "source": "hybrid_2",
+      "target": "lte_fdd_airscale1"
+    },
+    {
+      "source": "hybrid_2",
+      "target": "5g_airscale1"
+    }
+  ]
+}

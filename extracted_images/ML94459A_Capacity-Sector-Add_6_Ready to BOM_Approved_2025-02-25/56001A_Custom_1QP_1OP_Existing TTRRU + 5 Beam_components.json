@@ -1,0 +1,398 @@
+{
+  "nodes": [
+    {
+      "id": "AEHC",
+      "label": "AEHC"
+    },
+    {
+      "id": "MB_Quad_Receive_Antenna",
+      "label": "MB Quad Receive Antenna"
+    },
+    {
+      "id": "LB_MB_Octo_Passive_Antenna_1",
+      "label": "LB + MB Octo Passive Antenna"
+    },
+    {
+      "id": "LB_4_MB_5_Beam_Passive_Antenna_1",
+      "label": "LB 4 MB - 5 Beam Passive Antenna"
+    },
+    {
+      "id": "LB_4_MB_5_Beam_Passive_Antenna_2",
+      "label": "LB 4 MB - 5 Beam Passive Antenna"
+    },
+    {
+      "id": "LB_MB_Octo_Passive_Antenna_2",
+      "label": "LB + MB Octo Passive Antenna"
+    },
+    {
+      "id": "L19+_1",
+      "label": "L19+"
+    },
+    {
+      "id": "LAWS_1",
+      "label": "LAWS"
+    },
+    {
+      "id": "N21",
+      "label": "N21"
+    },
+    {
+      "id": "N19",
+      "label": "N19"
+    },
+    {
+      "id": "L700_1",
+      "label": "L700"
+    },
+    {
+      "id": "L600_1",
+      "label": "L600"
+    },
+    {
+      "id": "N600_1",
+      "label": "N600"
+    },
+    {
+      "id": "L15_1",
+      "label": "L15"
+    },
+    {
+      "id": "U21_1",
+      "label": "U21"
+    },
+    {
+      "id": "L19+_2",
+      "label": "L19+"
+    },
+    {
+      "id": "L19+_3",
+      "label": "L19+"
+    },
+    {
+      "id": "L19+_4",
+      "label": "L19+"
+    },
+    {
+      "id": "L19+_5",
+      "label": "L19+"
+    },
+    {
+      "id": "L19+_6",
+      "label": "L19+"
+    },
+    {
+      "id": "LAWS_2",
+      "label": "LAWS"
+    },
+    {
+      "id": "LAWS_3",
+      "label": "LAWS"
+    },
+    {
+      "id": "LAWS_4",
+      "label": "LAWS"
+    },
+    {
+      "id": "LAWS_5",
+      "label": "LAWS"
+    },
+    {
+      "id": "LAWS_6",
+      "label": "LAWS"
+    },
+    {
+      "id": "N1_1",
+      "label": "N1"
+    },
+    {
+      "id": "N1_2",
+      "label": "N1"
+    },
+    {
+      "id": "N1_3",
+      "label": "N1"
+    },
+    {
+      "id": "N1_4",
+      "label": "N1"
+    },
+    {
+      "id": "N1_5",
+      "label": "N1"
+    },
+    {
+      "id": "N3_1",
+      "label": "N3"
+    },
+    {
+      "id": "N3_2",
+      "label": "N3"
+    },
+    {
+      "id": "N3_3",
+      "label": "N3"
+    },
+    {
+      "id": "N3_4",
+      "label": "N3"
+    },
+    {
+      "id": "N3_5",
+      "label": "N3"
+    },
+    {
+      "id": "L19+_7",
+      "label": "L19+"
+    },
+    {
+      "id": "L19+_8",
+      "label": "L19+"
+    },
+    {
+      "id": "L19+_9",
+      "label": "L19+"
+    },
+    {
+      "id": "L19+_10",
+      "label": "L19+"
+    },
+    {
+      "id": "L19+_11",
+      "label": "L19+"
+    },
+    {
+      "id": "LAWS_7",
+      "label": "LAWS"
+    },
+    {
+      "id": "LAWS_8",
+      "label": "LAWS"
+    },
+    {
+      "id": "LAWS_9",
+      "label": "LAWS"
+    },
+    {
+      "id": "LAWS_10",
+      "label": "LAWS"
+    },
+    {
+      "id": "LAWS_11",
+      "label": "LAWS"
+    },
+    {
+      "id": "N1_6",
+      "label": "N1"
+    },
+    {
+      "id": "N1_7",
+      "label": "N1"
+    },
+    {
+      "id": "N1_8",
+      "label": "N1"
+    },
+    {
+      "id": "N1_9",
+      "label": "N1"
+    },
+    {
+      "id": "N1_10",
+      "label": "N1"
+    },
+    {
+      "id": "N3_6",
+      "label": "N3"
+    },
+    {
+      "id": "N3_7",
+      "label": "N3"
+    },
+    {
+      "id": "N3_8",
+      "label": "N3"
+    },
+    {
+      "id": "N3_9",
+      "label": "N3"
+    },
+    {
+      "id": "N3_10",
+      "label": "N3"
+    },
+    {
+      "id": "L700_2",
+      "label": "L700"
+    },
+    {
+      "id": "L600_2",
+      "label": "L600"
+    },
+    {
+      "id": "N600_2",
+      "label": "N600"
+    },
+    {
+      "id": "L15_2",
+      "label": "L15"
+    },
+    {
+      "id": "U21_2",
+      "label": "U21"
+    },
+    {
+      "id": "AHFIG_1",
+      "label": "AHFIG"
+    },
+    {
+      "id": "AHLOA_1",
+      "label": "AHLOA"
+    },
+    {
+      "id": "AHFIG_2",
+      "label": "AHFIG"
+    },
+    {
+      "id": "AHLOA_2",
+      "label": "AHLOA"
+    },
+    {
+      "id": "FXFB_1",
+      "label": "FXFB"
+    },
+    {
+      "id": "FRIE",
+      "label": "FRIE"
+    },
+    {
+      "id": "FXFB_2",
+      "label": "FXFB"
+    },
+    {
+      "id": "HCS1.0_1",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS2.0_TowerTop_1",
+      "label": "HCS2.0 TowerTop"
+    },
+    {
+      "id": "HCS1.0_2",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS2.0_TowerTop_2",
+      "label": "HCS2.0 TowerTop"
+    },
+    {
+      "id": "HCS2.0_TowerTop_3",
+      "label": "HCS2.0 TowerTop"
+    },
+    {
+      "id": "5G_Airscale",
+      "label": "5G Airscale"
+    },
+    {
+      "id": "LTE_TDD_Airscale2",
+      "label": "LTE TDD Airscale2"
+    },
+    {
+      "id": "ESMB_GSM",
+      "label": "ESMB GSM"
+    },
+    {
+      "id": "FSMF_UMTS_AWS",
+      "label": "FSMF UMTS AWS"
+    },
+    {
+      "id": "LTE_FDD_Airscale1",
+      "label": "LTE FDD Airscale1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AEHC",
+      "target": "AHFIG_1"
+    },
+    {
+      "source": "MB_Quad_Receive_Antenna",
+      "target": "AHFIG_1"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna_1",
+      "target": "AHLOA_1"
+    },
+    {
+      "source": "LB_4_MB_5_Beam_Passive_Antenna_1",
+      "target": "AHFIG_2"
+    },
+    {
+      "source": "LB_4_MB_5_Beam_Passive_Antenna_2",
+      "target": "AHLOA_2"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna_2",
+      "target": "AHLOA_2"
+    },
+    {
+      "source": "AHFIG_1",
+      "target": "FXFB_1"
+    },
+    {
+      "source": "AHLOA_1",
+      "target": "FXFB_1"
+    },
+    {
+      "source": "AHFIG_2",
+      "target": "FRIE"
+    },
+    {
+      "source": "AHLOA_2",
+      "target": "FXFB_2"
+    },
+    {
+      "source": "FXFB_1",
+      "target": "HCS1.0_1"
+    },
+    {
+      "source": "FRIE",
+      "target": "HCS1.0_2"
+    },
+    {
+      "source": "FXFB_2",
+      "target": "HCS1.0_2"
+    },
+    {
+      "source": "HCS1.0_1",
+      "target": "HCS2.0_TowerTop_1"
+    },
+    {
+      "source": "HCS1.0_2",
+      "target": "HCS2.0_TowerTop_2"
+    },
+    {
+      "source": "HCS1.0_2",
+      "target": "HCS2.0_TowerTop_3"
+    },
+    {
+      "source": "HCS2.0_TowerTop_1",
+      "target": "5G_Airscale"
+    },
+    {
+      "source": "HCS2.0_TowerTop_1",
+      "target": "LTE_TDD_Airscale2"
+    },
+    {
+      "source": "HCS2.0_TowerTop_2",
+      "target": "ESMB_GSM"
+    },
+    {
+      "source": "HCS2.0_TowerTop_2",
+      "target": "FSMF_UMTS_AWS"
+    },
+    {
+      "source": "HCS2.0_TowerTop_2",
+      "target": "LTE_FDD_Airscale1"
+    }
+  ]
+}

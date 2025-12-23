@@ -1,0 +1,37 @@
+Adjacency Matrix
+,aehc,b41,passive_antenna,l19,l700,l21_aws3,l600,g19,n600,n21,n19,ahloa,ahfig,hybrid1,hybrid2,5g_airscale,fsmf_gsm_pcs,lte_fdd_tdd_airscale1
+aehc,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+b41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+passive_antenna,0,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,0
+l19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+l700,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+l21_aws3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+l600,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+n600,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+n21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+n19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ahloa,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ahfig,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+hybrid1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+hybrid2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+5g_airscale,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+fsmf_gsm_pcs,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lte_fdd_tdd_airscale1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+Edge List with Ports
+source,target,source_port,target_port
+aehc,hybrid1,,
+passive_antenna,ahloa,8,
+passive_antenna,ahloa,7,
+passive_antenna,ahloa,6,
+passive_antenna,ahloa,5,
+passive_antenna,ahfig,4,
+passive_antenna,ahfig,3,
+passive_antenna,ahfig,2,
+passive_antenna,ahfig,1,
+ahloa,hybrid1,,
+ahfig,hybrid2,,
+hybrid1,5g_airscale,,
+hybrid2,fsmf_gsm_pcs,,
+hybrid2,lte_fdd_tdd_airscale1,,

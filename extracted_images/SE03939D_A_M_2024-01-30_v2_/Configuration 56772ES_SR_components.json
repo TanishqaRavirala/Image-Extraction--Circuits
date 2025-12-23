@@ -1,0 +1,206 @@
+{
+  "nodes": [
+    {
+      "id": "AEHC",
+      "label": "AEHC"
+    },
+    {
+      "id": "AAFIA",
+      "label": "AAFIA"
+    },
+    {
+      "id": "LB_MB_Octo_Passive_Antenna",
+      "label": "LB + MB Octo Passive Antenna"
+    },
+    {
+      "id": "L700",
+      "label": "L700"
+    },
+    {
+      "id": "LAWS3",
+      "label": "LAWS3"
+    },
+    {
+      "id": "L600",
+      "label": "L600"
+    },
+    {
+      "id": "G19",
+      "label": "G19"
+    },
+    {
+      "id": "N600",
+      "label": "N600"
+    },
+    {
+      "id": "U19",
+      "label": "U19"
+    },
+    {
+      "id": "L19",
+      "label": "L19"
+    },
+    {
+      "id": "N21",
+      "label": "N21"
+    },
+    {
+      "id": "N19",
+      "label": "N19"
+    },
+    {
+      "id": "AHLOA",
+      "label": "AHLOA"
+    },
+    {
+      "id": "AHFIG",
+      "label": "AHFIG"
+    },
+    {
+      "id": "Fiber_Jumpers",
+      "label": "Fiber Jumpers"
+    },
+    {
+      "id": "HCS1_0_top_1",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1_0_top_2",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1_0_top_3",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS2_0_Rooftop",
+      "label": "HCS2.0 Rooftop"
+    },
+    {
+      "id": "HCS1_0_bottom_1",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1_0_bottom_2",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "HCS1_0_bottom_3",
+      "label": "HCS1.0"
+    },
+    {
+      "id": "5G_Airscale",
+      "label": "5G Airscale"
+    },
+    {
+      "id": "LTE_TDD_Airscale2",
+      "label": "LTE TDD Airscale2"
+    },
+    {
+      "id": "FSMF_GSM_UMTS_PCS",
+      "label": "FSMF GSM/UMTS PCS"
+    },
+    {
+      "id": "LTE_FDD_Airscale1",
+      "label": "LTE FDD Airscale1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AEHC",
+      "target": "Fiber_Jumpers"
+    },
+    {
+      "source": "AAFIA",
+      "target": "AHLOA",
+      "target_port": "8"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna",
+      "target": "AHLOA",
+      "target_port": "7"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna",
+      "target": "AHLOA",
+      "target_port": "6"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna",
+      "target": "AHLOA",
+      "target_port": "5"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna",
+      "target": "AHFIG",
+      "target_port": "4"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna",
+      "target": "AHFIG",
+      "target_port": "3"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna",
+      "target": "AHFIG",
+      "target_port": "2"
+    },
+    {
+      "source": "LB_MB_Octo_Passive_Antenna",
+      "target": "AHFIG",
+      "target_port": "1"
+    },
+    {
+      "source": "AHLOA",
+      "target": "Fiber_Jumpers"
+    },
+    {
+      "source": "AHFIG",
+      "target": "Fiber_Jumpers"
+    },
+    {
+      "source": "Fiber_Jumpers",
+      "target": "HCS1_0_top_1"
+    },
+    {
+      "source": "Fiber_Jumpers",
+      "target": "HCS1_0_top_2"
+    },
+    {
+      "source": "Fiber_Jumpers",
+      "target": "HCS1_0_top_3"
+    },
+    {
+      "source": "Fiber_Jumpers",
+      "target": "HCS2_0_Rooftop"
+    },
+    {
+      "source": "HCS1_0_top_1",
+      "target": "HCS1_0_bottom_1"
+    },
+    {
+      "source": "HCS1_0_top_2",
+      "target": "HCS1_0_bottom_2"
+    },
+    {
+      "source": "HCS1_0_top_3",
+      "target": "HCS1_0_bottom_3"
+    },
+    {
+      "source": "HCS2_0_Rooftop",
+      "target": "5G_Airscale"
+    },
+    {
+      "source": "HCS2_0_Rooftop",
+      "target": "LTE_TDD_Airscale2"
+    },
+    {
+      "source": "HCS1_0_bottom_2",
+      "target": "FSMF_GSM_UMTS_PCS"
+    },
+    {
+      "source": "HCS1_0_bottom_3",
+      "target": "LTE_FDD_Airscale1"
+    }
+  ]
+}
